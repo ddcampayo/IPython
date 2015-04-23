@@ -4,9 +4,9 @@
  cd test
  vi README
  git add README 
- git add Kyoto\ -\ string.ipynb 
+ cp ~/SpiderOak/Kyoto/*.ipynb .
+ git add *
  ls
- git commint -m "test"
- git commit -m "test"
- git remote add origin https://github.com/ddcampayo/test.git
+ git commit -m "New commit"
+ git remote add origin https://github.com/ddcampayo/IPython.git
  git push origin master
